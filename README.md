@@ -34,6 +34,8 @@
 ### NMAR Analysis
 
 ### Missingness Dependency
+   
+## Hypothesis Testing
 
 <iframe
   src="TVD_Dist_Out_States.html"
@@ -41,8 +43,13 @@
   height="600"
   frameborder="0"
 ></iframe>
-   
-## Hypothesis Testing
+
+<iframe
+  src="HTCausePlot2.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 ## Framing a Prediction Problem 
 ### Problem Identification
