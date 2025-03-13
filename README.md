@@ -51,6 +51,13 @@
 
 ### Interesting Aggregates
 
+<iframe
+  src="df_agg.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 ## Assessment of Missingness
 
 ### NMAR Analysis
