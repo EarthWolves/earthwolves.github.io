@@ -26,6 +26,12 @@
 ### Univariate Analysis
 
 ### Bivariate Analysis
+<iframe
+  src="Bivariate_Duration_State.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 ### Interesting Aggregates
 
@@ -52,7 +58,7 @@
 ></iframe>
 
 <iframe
-  src="HTMonthPlot3.html"
+  src="HTMothPlot3.html"
   width="800"
   height="600"
   frameborder="0"
