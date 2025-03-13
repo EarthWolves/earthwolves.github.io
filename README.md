@@ -20,14 +20,14 @@
 ### Univariate Analysis
 
 <iframe
-  src="Univariate_Outages_Years.html"
+  src="plots/Univariate_Outages_Years.html"
   width="800"
   height="600"
   frameborder="0"
 ></iframe>
 
 <iframe
-  src="us_power_outages_map.html"
+  src="plots/us_power_outages_map.html"
   width="800"
   height="600"
   frameborder="0"
@@ -36,14 +36,14 @@
 ### Bivariate Analysis
 
 <iframe
-  src="Sunburst_State_Cause.html"
+  src="plots/Sunburst_State_Cause.html"
   width="800"
   height="600"
   frameborder="0"
 ></iframe>
 
 <iframe
-  src="Bivariate_Duration_State.html"
+  src="plots/Bivariate_Duration_State.html"
   width="800"
   height="600"
   frameborder="0"
@@ -52,7 +52,7 @@
 ### Interesting Aggregates
 
 <iframe
-  src="df_agg.html"
+  src="plots/df_agg.html"
   width="800"
   height="600"
   frameborder="0"
@@ -88,7 +88,7 @@ Any observed difference (TVD) is due to random variation rather than a true unde
 #### Test Visualization
 
 <iframe
-  src="TVD_Dist_Out_States.html"
+  src="plots/TVD_Dist_Out_States.html"
   width="800"
   height="400"
   frameborder="0"
@@ -110,7 +110,7 @@ Hence we **reject the Null Hypothesis**. There are likely systematic factors (e.
 #### Test Visualization
 
 <iframe
-  src="HTCausePlot2.html"
+  src="plots/HTCausePlot2.html"
   width="800"
   height="600"
   frameborder="0"
@@ -129,7 +129,7 @@ Hence, we **reject the Null hypothesis**. There are likely systematic factors (e
 **Test Statistic**: TVD
 
 <iframe
-  src="HTMonthPlot3.html"
+  src="plots/HTMonthPlot3.html"
   width="800"
   height="600"
   frameborder="0"
