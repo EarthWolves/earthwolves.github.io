@@ -66,18 +66,17 @@
    
 ## Hypothesis Testing
 
-Null Hypothesis : The distribution of power outage durations across states is proportional to the distribution of the number of outages per state.
+**Null Hypothesis** : The distribution of power outage durations across states is proportional to the distribution of the number of outages per state.
 Any observed difference (TVD) is due to random variation rather than a true underlying effect.
+**Alternative Hypothesis** : The distribution of power outage durations is not proportional to the number of outages per state.
+**Test Statistic** : TVD 
 
-Alternative Hypothesis : The distribution of power outage durations is not proportional to the number of outages per state.
-
-Test Statistic : TVD 
-
+### Test Visualization
 
 <iframe
   src="TVD_Dist_Out_States.html"
   width="800"
-  height="600"
+  height="400"
   frameborder="0"
 ></iframe>
 
