@@ -14,6 +14,13 @@
 
 ## Data Cleaning and EDA
 
+<iframe
+  src="us_power_outages_map.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 ### Data Cleaning 
   
 ### Univariate Analysis
