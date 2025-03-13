@@ -14,12 +14,6 @@
 
 ## Data Cleaning and EDA
 
-<iframe
-  src="us_power_outages_map.html"
-  width="800"
-  height="600"
-  frameborder="0"
-></iframe>
 
 ### Data Cleaning 
   
@@ -27,6 +21,13 @@
 
 <iframe
   src="Univariate_Outages_Years.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
+<iframe
+  src="us_power_outages_map.html"
   width="800"
   height="600"
   frameborder="0"
