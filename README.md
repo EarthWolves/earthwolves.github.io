@@ -29,7 +29,7 @@
 ### Missingness Dependency
 
 <iframe
-  src="plots/TVD_Dist_Out_States.html"
+  src="TVD_Dist_Out_States.html"
   width="800"
   height="600"
   frameborder="0"
