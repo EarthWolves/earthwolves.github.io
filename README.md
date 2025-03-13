@@ -51,6 +51,13 @@
   frameborder="0"
 ></iframe>
 
+<iframe
+  src="HTCausePlot3.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 ## Framing a Prediction Problem 
 ### Problem Identification
 
