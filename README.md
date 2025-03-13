@@ -1,1 +1,1 @@
-# rohan and mohak github project
+Predicting Power Outage Causes Across U.S. States
