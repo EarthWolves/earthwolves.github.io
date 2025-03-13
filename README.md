@@ -69,7 +69,15 @@
 
 ### NMAR Analysis
 
+After analyzing different columns, we thought `'CUSTOMERS.AFFECTED'`'s missingness to be NMAR. Since the power outage durations can be as extreme as 108k minutes, some companies might tend to not record or report such long durations of outages to avoid negative publicity. It might also be the case that data where only a few customers would have been affected might not be reported due to the numbers being small and insignificant. About a third of the rows of the top 50 highest reported outage durations had their corresponding `'CUSTOMERS.AFFECTED'` value empty, and about half of them either were not reported or had suspiciously low values of under 10 customers affected. This led us to believe that `'CUSTOMERS.AFFECTED'` could be NMAR on `'OUTAGE.DURATION'`.
+
+#### What data could we collect to explain the missingness? 
+
+The main features that could help us identify the true cause of missingness would be gettint to know the Utility company policies and thresholds with regards to collecting and reporting the data. Other data features like data reporting history and analysis of trends, potential state-to-state varying regulatory requirements, company structure, media coverage, etc. 
+
 ### Missingness Dependency
+
+
    
 ## Hypothesis Testing
 
