@@ -25,6 +25,13 @@
   
 ### Univariate Analysis
 
+<iframe
+  src="Univariate_Outages_Years.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
+
 ### Bivariate Analysis
 <iframe
   src="Bivariate_Duration_State.html"
