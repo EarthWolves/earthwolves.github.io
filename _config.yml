@@ -2,4 +2,12 @@ title: Power Outage Cause Prediction
 description: Predicting Power Outage Causes Across U.S. States
 theme: minima
 markdown: kramdown
-author: Rohan Raval and Mohak Prakash
+authors: 
+- name: Mohak Prakash
+  email: mprakash@ucsd.edu
+  github: TC960
+  bio: Sophomore Data Science Major & Neuroscience Minor @ UCSD
+- name: Rohan Raval
+  email: rraval@ucsd.edu
+  github: rohanraval2
+  bio: Sophomore Data Science and Applied Math Major @ UCSD
