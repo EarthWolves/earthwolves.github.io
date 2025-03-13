@@ -66,12 +66,24 @@
    
 ## Hypothesis Testing
 
+Null Hypothesis : The distribution of power outage durations across states is proportional to the distribution of the number of outages per state.
+Any observed difference (TVD) is due to random variation rather than a true underlying effect.
+
+Alternative Hypothesis : The distribution of power outage durations is not proportional to the number of outages per state.
+
+Test Statistic : TVD 
+
+
 <iframe
   src="TVD_Dist_Out_States.html"
   width="800"
   height="600"
   frameborder="0"
 ></iframe>
+
+Our observed TVD lied in the extreme right tail of Null distribution (obtained from permutation tests) which provides strong evidence that outage durations are not randomly assigned across states.
+
+Hence we reject the Null Hypothesis. There are likely systematic factors (e.g., infrastructure & weather) that cause certain states to have disproportionately longer outages than their outage frequency would suggest.
 
 <iframe
   src="HTCausePlot2.html"
