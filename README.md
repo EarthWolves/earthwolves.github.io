@@ -62,17 +62,24 @@ The third plot below performs similarly to the previous chlorpleth map, but this
 
 ### Bivariate Analysis
 
+For a holistic bivariate analysis, we performed quite a few visualizations and the most significant results are as below:
+
+The plot below is a sunburst plot for the top 12 states by frequency of power outages. The proportion of each state is segmented by the different power outage causes to give a visual idea of the most common root cause for power outages in each state and how many major causes are prevalent (Single dominating cause in case of Michigan, and Multiple dominating causes in case of California) 
+
 <iframe
   src="plots/Sunburst_State_Cause.html"
-  width="800"
+  width="1000"
   height="600"
   frameborder="0"
 ></iframe>
 
+
+The following plot is a box-and-whisker plot for the distribution of power outage durations for each of the 12 states with the most number of power outages. This gives us an insight on how tight or spread the distribution of outages is and an insight into what potential outliers might be present for each state 
+
 <iframe
   src="plots/Bivariate_Duration_State.html"
   width="800"
-  height="600"
+  height="400"
   frameborder="0"
 ></iframe>
 
