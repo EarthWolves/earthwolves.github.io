@@ -30,14 +30,20 @@ The first couple of rows of the dataframe after cleaning are as follows:
 
 ( put the cleaned dataframe data here )
 
+## Exploratory Data Analysis
 ### Univariate Analysis
 
+For a holistic univariate analysis, we performed quite a few visualizations and have listed the the most useful below
+
+The first plot below displays the trends in cause of power outage from the years 2000 to 2016
 <iframe
   src="plots/Univariate_Outages_Years.html"
-  width="800"
-  height="600"
+  width="1200"
+  height="800"
   frameborder="0"
 ></iframe>
+
+The second plot below is a chlorpleth map that has varying shades of color - darker the state, the more power outages it has witnessed. (Note: For a more relative and accurate representation, the values of frequencies were converted to log)
 
 <iframe
   src="plots/us_power_outages_map.html"
@@ -46,6 +52,7 @@ The first couple of rows of the dataframe after cleaning are as follows:
   frameborder="0"
 ></iframe>
 
+The third plot below performs similarly to the previous chlorpleth map, but this one is a chloropleth map for total power outage duration per state, with the darker the state, the more total duration of power outages it has faced. (Note: For a more relative and accurate representation, the values of frequencies were converted to log)
 <iframe
   src="plots/combined_power_outages_state.html"
   width="800"
