@@ -217,9 +217,9 @@ Total features: 3
 These encodings were implemented using a `ColumnTransformer` within a scikit-learn `Pipeline` to ensure proper feature transformation during both training and prediction phases.
 
 ### Model Performance
-Training Data Performance: ~80% Accuracy
-Test Data Performance: ~68% Accuracy
-F1-score: ~0.64
+- Training Data Performance: ~80% Accuracy
+- Test Data Performance: ~68% Accuracy
+- F1-score: ~0.64
 
 ### Model Improvements
 1. Using random forest clf instead of using decision trees, giving us more liberty with the hyperparameters and surity of model
