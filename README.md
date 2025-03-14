@@ -69,7 +69,7 @@ The plot below is a sunburst plot for the top 12 states by frequency of power ou
 <iframe
   src="plots/Sunburst_State_Cause.html"
   width="1000"
-  height="600"
+  height="700"
   frameborder="0"
 ></iframe>
 
@@ -79,7 +79,7 @@ The following plot is a box-and-whisker plot for the distribution of power outag
 <iframe
   src="plots/Bivariate_Duration_State.html"
   width="800"
-  height="400"
+  height="500"
   frameborder="0"
 ></iframe>
 
