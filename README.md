@@ -1,15 +1,15 @@
 # Predicting Power Outage Causes Across U.S. States
 
 ## Introduction 
-|Column                            | Description |
-|---|---                           |
-|`'MONTH'`                         | Month during which the outage took place |
-|`'U.S._STATE'`                    | State the outage occurred in |
-|`'OUTAGE.DURATION'`               | Duration of outage events (in minutes) |
-|`'CUSTOMERS.AFFECTED'`            | Number of customers affected by the power outage event |
-|`'CAUSE.CATEGORY'`                | Categories of all the events causing the major power outages |
-|`'ANOMALY.LEVEL'`                 | The oceanic El Niño/La Niña (ONI) index referring to the cold and warm episodes by season |
-|`'RES.CUSTOMERS'`                 | Annual number of customers served in the residential electricity sector of the U.S. state |
+| Column Name | Description |
+|-------------|-------------|
+| 'MONTH' | Month during which the outage took place |
+| 'U.S._STATE' | State the outage occurred in |
+| 'OUTAGE.DURATION' | Duration of outage events (in minutes) |
+| 'CUSTOMERS.AFFECTED' | Number of customers affected by the power outage event |
+| 'CAUSE.CATEGORY' | Categories of all the events causing the major power outages |
+| 'ANOMALY.LEVEL' | The oceanic El Niño/La Niña (ONI) index referring to the cold and warm episodes by season |
+| 'RES.CUSTOMERS' | Annual number of customers served in the residential electricity sector of the U.S. state |
 
 
 ## Data Cleaning and EDA
