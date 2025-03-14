@@ -85,12 +85,11 @@ The following plot is a box-and-whisker plot for the distribution of power outag
 
 ### Interesting Aggregates
 
-<iframe
-  src="plots/df_agg.html"
-  width="800"
-  height="600"
-  frameborder="0"
-></iframe>
+| CLIMATE.CATEGORY | equipment failure'` | fuel supply emergency | intentional attack | islanding | public appeal | severe weather | system operability disruption |
+|------------------|-------------------|------------------------|-------------------|-----------|---------------|----------------|------------------------------|
+| cold             | 308.24            | 17433.0                | 497.28            | 259.27    | 2125.91       | 3279.95        | 601.86                       |
+| normal           | 3201.43           | 7658.82                | 426.82            | 142.18    | 1376.53       | 4059.33        | 941.02                       |
+| warm             | 505.0             | 22799.67               | 312.56            | 209.83    | 596.23        | 4416.69        | 478.2                        |
 
 ## Assessment of Missingness
 
