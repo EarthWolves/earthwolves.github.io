@@ -85,7 +85,9 @@ The following plot is a box-and-whisker plot for the distribution of power outag
 
 ### Interesting Aggregates
 
-| CLIMATE.CATEGORY | equipment failure'` | fuel supply emergency | intentional attack | islanding | public appeal | severe weather | system operability disruption |
+The following is a pivot table generated that shows the average outage duration (in minutes) for different combinations of climate categories and cause categories, revealing how different factors impact power restoration times. The data reveals that fuel supply emergencies cause the longest outages, with warm regions experiencing nearly 16-day interruptions (22,799 minutes). Severe weather consistently produces extended outages across all climate types, though warm regions suffer the most (4,416 minutes). Climate significantly influences outage patterns - normal regions face longer equipment failures, while cold regions experience prolonged public appeals. Intentional attacks show an interesting pattern, with decreasing duration as temperatures rise.
+
+| CLIMATE.CATEGORY | equipment failure | fuel supply emergency | intentional attack | islanding | public appeal | severe weather | system operability disruption |
 |------------------|-------------------|------------------------|-------------------|-----------|---------------|----------------|------------------------------|
 | cold             | 308.24            | 17433.0                | 497.28            | 259.27    | 2125.91       | 3279.95        | 601.86                       |
 | normal           | 3201.43           | 7658.82                | 426.82            | 142.18    | 1376.53       | 4059.33        | 941.02                       |
