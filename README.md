@@ -105,6 +105,34 @@ The main features that could help us identify the true cause of missingness woul
 
 ### Missingness Dependency
 
+<iframe
+  src="plots/climate_customers_affected_hist.html"
+  width="800"
+  height="500"
+  frameborder="0"
+></iframe>
+
+<iframe
+  src="plots/climate_customers_affected_missing_assessment.html"
+  width="800"
+  height="500"
+  frameborder="0"
+></iframe>
+
+<iframe
+  src="plots/customers_total_price_hist.html"
+  width="800"
+  height="500"
+  frameborder="0"
+></iframe>
+
+<iframe
+  src="plots/customers_total_price_missing_assessment.html"
+  width="800"
+  height="500"
+  frameborder="0"
+></iframe>
+
 
    
 ## Hypothesis Testing
