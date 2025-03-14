@@ -35,7 +35,7 @@ The first couple of rows of the dataframe after cleaning are as follows:
 
 For a holistic univariate analysis, we performed quite a few visualizations and have listed the the most useful below
 
-The first plot below displays the trends in cause of power outage from the years 2000 to 2016
+The first plot below displays the **trends in cause of power outage from the years 2000 to 2016**
 <iframe
   src="plots/Univariate_Outages_Years.html"
   width="1200"
@@ -43,7 +43,7 @@ The first plot below displays the trends in cause of power outage from the years
   frameborder="0"
 ></iframe>
 
-The second plot below is a chlorpleth map that has varying shades of color - darker the state, the more power outages it has witnessed. (Note: For a more relative and accurate representation, the values of frequencies were converted to log)
+The second plot below is a **chlorpleth map that has varying shades of color - darker the state, the more power outages it has witnessed**. (Note: For a more relative and accurate representation, the values of frequencies were converted to log)
 
 <iframe
   src="plots/us_power_outages_map.html"
@@ -52,7 +52,7 @@ The second plot below is a chlorpleth map that has varying shades of color - dar
   frameborder="0"
 ></iframe>
 
-The third plot below performs similarly to the previous chlorpleth map, but this one is a chloropleth map for total power outage duration per state, with the darker the state, the more total duration of power outages it has faced. (Note: For a more relative and accurate representation, the values of frequencies were converted to log)
+The third plot below performs similarly to the previous chlorpleth map, but this one is a chloropleth map for **total power outage duration per state, with the darker the state, the more total duration of power outages it has faced**. (Note: For a more relative and accurate representation, the values of frequencies were converted to log)
 <iframe
   src="plots/combined_power_outages_state.html"
   width="800"
