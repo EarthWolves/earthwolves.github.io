@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-The dataset we chose for our project is 'Power Outages' Dataset, which contains data on major power outages across different states of the United States during January 2000 and July 2016. The dataset contains about 1500 datapoints with 
+The dataset we chose for our project is 'Power Outages' Dataset, which contains data on major power outages across different states of the United States during January 2000 and July 2016. The dataset contains about 1534 datapoints and 57 features, of which we have selected the following columns to perform our project on.
 
 
 |Column                |Description|
@@ -17,10 +17,19 @@ The dataset we chose for our project is 'Power Outages' Dataset, which contains 
 
 
 ## Data Cleaning and EDA
-
+The first and foremost step to ensure no undesirable outcomes in the data, and making the data more interpretable.
 
 ### Data Cleaning 
-  
+Most data collected by public institution is already preprocessed, but upon analysis, we came across a few unwanted characteristics that we took care of in the following steps:
+
+1) **Selecting only relevant features** We dropped features that we didn't want and only kept the features as listed: `'MONTH'` , `'U.S._STATE'` , `'ANOMALY.LEVEL'`, `'CAUSE.CATEGORY'` , `'OUTAGE.DURATION'` , `'CUSTOMERS.AFFECTED'`, `'RES.CUSTOMERS'`.
+
+2) **Renaming columns**: We renamed the columns to be more readable and interpretable. We then combined the row with the units and combined it with the corresponding columns
+
+The first couple of rows of the dataframe after cleaning are as follows:
+
+( put the cleaned dataframe data here )
+
 ### Univariate Analysis
 
 <iframe
