@@ -39,7 +39,7 @@ The first plot below displays the trends in cause of power outage from the years
 <iframe
   src="plots/Univariate_Outages_Years.html"
   width="1200"
-  height="800"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -47,8 +47,8 @@ The second plot below is a chlorpleth map that has varying shades of color - dar
 
 <iframe
   src="plots/us_power_outages_map.html"
-  width="800"
-  height="600"
+  width="1000"
+  height="500"
   frameborder="0"
 ></iframe>
 
