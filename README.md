@@ -9,11 +9,13 @@ The dataset we chose for our project is 'Power Outages' Dataset, which contains 
 |---                |---        |
 |`'MONTH'`                |Month an outage occurred|
 |`'U.S._STATE'`                |State the outage occurred in|
+|`'POSTAL.CODE'`| Represents the postal code of the U.S. states|
 |`'ANOMALY.LEVEL'`                |Oceanic El Niño/La Niña (ONI) index referring to the cold and warm episodes by season|
 |`'CAUSE.CATEGORY'`                |Categories of all the events causing the major power outages|
 |`'OUTAGE.DURATION'`                |Duration of outage events (in minutes)|
 |`'CUSTOMERS.AFFECTED'`                |Number of customers affected by the power outage event|
-| `'RES.CUSTOMERS'` | Annual number of customers served in the residential electricity sector of the U.S. state |
+|`'RES.PRICE'` | Monthly electricity price in the residential sector (cents/kilowatt-hour) |
+|`'CLIMATE.CATEGORY'`|This represents the climate episodes corresponding to the years|
 
 
 ## Data Cleaning and EDA
@@ -22,13 +24,20 @@ The first and foremost step to ensure no undesirable outcomes in the data, and m
 ### Data Cleaning 
 Most data collected by public institution is already preprocessed, but upon analysis, we came across a few unwanted characteristics that we took care of in the following steps:
 
-1) **Selecting only relevant features** We dropped features that we didn't want and only kept the features as listed: `'MONTH'` , `'U.S._STATE'` , `'ANOMALY.LEVEL'`, `'CAUSE.CATEGORY'` , `'OUTAGE.DURATION'` , `'CUSTOMERS.AFFECTED'`, `'RES.CUSTOMERS'`.
+1) **Selecting only relevant features** We dropped features that we didn't want and only kept the features as listed: `'MONTH'` , `'POSTAL.CODE'`, `'U.S._STATE'` , `'ANOMALY.LEVEL'`, `'CAUSE.CATEGORY'` , `'OUTAGE.DURATION'` , `'CUSTOMERS.AFFECTED'`, `'RES.PRICE'`.
 
-2) **Renaming columns**: We renamed the columns to be more readable and interpretable. We then combined the row with the units and combined it with the corresponding columns
+2) **Renaming columns**: We renamed the columns to be more readable and interpretable and then combined the row with the units and combined it with the corresponding columns
 
 The first couple of rows of the dataframe after cleaning are as follows:
 
-( put the cleaned dataframe data here )
+
+| | Climate Region | State | State Code | Cause Category | ... | Anomaly Level (numeric) | Residential Price (cents / kilowatt-hour) | Customers Affected | Month |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | East North Central | Minnesota | MN | severe weather | ... | -0.3 | 11.6 | 70000.0 | 7.0 |
+| 2 | East North Central | Minnesota | MN | intentional attack | ... | -0.1 | 12.12 | NaN | 5.0 |
+| 3 | East North Central | Minnesota | MN | severe weather | ... | -1.5 | 10.87 | 70000.0 | 10.0 |
+| 4 | East North Central | Minnesota | MN | severe weather | ... | -0.1 | 11.79 | 68200.0 | 6.0 |
+| 5 | East North Central | Minnesota | MN | severe weather | ... | 1.2 | 13.07 | 250000.0 | 7.0 |
 
 ## Exploratory Data Analysis
 ### Univariate Analysis
