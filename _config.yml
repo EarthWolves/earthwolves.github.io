@@ -1,6 +1,10 @@
 title: Power Outage Cause Prediction
 description: Predicting Power Outage Causes Across U.S. States
-theme: primer
+
+remote_theme: pages-themes/primer@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
 markdown: kramdown
 authors: 
 - name: Mohak Prakash
