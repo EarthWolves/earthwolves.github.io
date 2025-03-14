@@ -1,6 +1,6 @@
 title: Power Outage Cause Prediction
 description: Predicting Power Outage Causes Across U.S. States
-theme: minima
+theme: primer
 markdown: kramdown
 authors: 
 - name: Mohak Prakash
