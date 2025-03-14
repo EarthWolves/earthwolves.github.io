@@ -196,6 +196,39 @@ We fail to reject the null hypothesis. The analysis indicates that the outage du
 
 ## Baseline Model
 
+### Model Used 
+**Our model is a Decision Tree Classifier pipeline designed to predict the `CAUSE.CATEGORY` of power outages based on three features**
+
+### Features in the Model
+
+Total features: 3
+- **Quantitative features (1)**: 
+  - `OUTAGE.DURATION`: Numeric variable representing the length of time the outage lasted, which may correlate with certain types of causes (e.g., severe weather events typically cause longer outages than equipment failures)
+
+- **Nominal features (2)**:
+  - `U.S._STATE`: Categorical variable representing the state where the outage occurred. Different states have varying infrastructure, regulations, and environmental conditions that influence outage causes.
+  - `MONTH`: Categorical variable representing the month when the outage occurred, which captures seasonal patterns that might affect outage causes (e.g., storm seasons, high electricity demand periods)
+
+### Encoding Methods
+- `U.S._STATE`: One-hot encoded using `OneHotEncoder(drop='first')` to convert this nominal variable into binary features while avoiding multicollinearity by dropping one reference category.
+- `MONTH`: Currently passed through the pipeline without specific encoding. This is a limitation as the model may interpret it as a continuous variable rather than a categorical one.
+- `OUTAGE.DURATION`: Maintained as a raw numeric feature without scaling.
+
+These encodings were implemented using a `ColumnTransformer` within a scikit-learn `Pipeline` to ensure proper feature transformation during both training and prediction phases.
+
+### Model Performance
+Training Data Performance: ~80% Accuracy
+Test Data Performance: ~68% Accuracy
+F1-score: ~0.64
+
+### Model Improvements
+1. Using random forest clf instead of using decision trees, giving us more liberty with the hyperparameters and surity of model
+   
+2. **Cross-validation**: Using k-fold cross-validation ensures more reliable performance evaluation across different data subsets, improving generalizability.
+   
+3. **Efficient parameter search**: RandomizedSearchCV with `'n'` iterations provided a smart exploration of the hyperparameter space without the computational burden of exhaustive grid search.
+
+
 ## Final Model
 
 ## Fairness Analysis
