@@ -170,7 +170,7 @@ Any observed difference (TVD) is due to random variation rather than a true unde
 <iframe
   src="plots/TVD_Dist_Out_States.html"
   width="1000"
-  height="650"
+  height="450"
   frameborder="0"
 ></iframe>
 
