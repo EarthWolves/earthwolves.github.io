@@ -14,7 +14,7 @@ The dataset we chose for our project is 'Power Outages' Dataset, which contains 
 |`'CAUSE.CATEGORY'`                |Categories of all the events causing the major power outages|
 |`'OUTAGE.DURATION'`                |Duration of outage events (in minutes)|
 |`'CUSTOMERS.AFFECTED'`                |Number of customers affected by the power outage event|
-|`'RES.PRICE'` | Monthly electricity price in the residential sector (cents/kilowatt-hour) |
+|`'TOTAL.PRICE'` | Monthly electricity price combined across all sectors (cents/kilowatt-hour) |
 |`'CLIMATE.CATEGORY'`|This represents the climate episodes corresponding to the years|
 
 
@@ -209,7 +209,7 @@ Hence, we **reject the Null hypothesis**. There are likely systematic factors (e
 **Test Statistic**: TVD
 
 <iframe
-  src="plots/HT_3_Cause_Cat.html"
+  src="plots/HT_3_Clim_Cat.html"
   width="800"
   height="400"
   frameborder="0"
