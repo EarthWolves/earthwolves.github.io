@@ -116,6 +116,8 @@ The main features that could help us identify the true cause of missingness woul
 
 <iframe
   src="plots/climate_customers_affected_hist.html"
+  width="800"
+  height="400"
   frameborder="0"
 ></iframe>
 
@@ -129,7 +131,7 @@ The main features that could help us identify the true cause of missingness woul
 <iframe
   src="plots/climate_total_price_hist.html"
   width="800"
-  height="800"
+  height="400"
   frameborder="0"
 ></iframe>
 
