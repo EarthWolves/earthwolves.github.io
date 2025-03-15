@@ -170,7 +170,7 @@ Any observed difference (TVD) is due to random variation rather than a true unde
 <iframe
   src="plots/HT_1_State.html"
   width="800"
-  height="400"
+  height="350"
   frameborder="0"
 ></iframe>
 
@@ -192,7 +192,7 @@ Hence we **reject the Null Hypothesis**. There are likely systematic factors (e.
 <iframe
   src="plots/HT_2_Cause_Cat.html"
   width="800"
-  height="400"
+  height="350"
   frameborder="0"
 ></iframe>
 
@@ -211,7 +211,7 @@ Hence, we **reject the Null hypothesis**. There are likely systematic factors (e
 <iframe
   src="plots/HT_3_Clim_Cat.html"
   width="800"
-  height="400"
+  height="350"
   frameborder="0"
 ></iframe>
 
