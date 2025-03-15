@@ -56,7 +56,7 @@ The second plot below is a **chlorpleth map that has varying shades of color - d
 
 <iframe
   src="plots/us_power_outages_map.html"
-  width="500"
+  width="800"
   height="500"
   frameborder="0"
 ></iframe>
@@ -64,7 +64,7 @@ The second plot below is a **chlorpleth map that has varying shades of color - d
 The third plot below performs similarly to the previous chlorpleth map, but this one is a chloropleth map for **total power outage duration per state, with the darker the state, the more total duration of power outages it has faced**. (Note: For a more relative and accurate representation, the values of frequencies were converted to log)
 <iframe
   src="plots/combined_power_outages_state.html"
-  width="500"
+  width="800"
   height="500"
   frameborder="0"
 ></iframe>
