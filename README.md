@@ -88,7 +88,7 @@ The following plot is a box-and-whisker plot for the distribution of power outag
 <iframe
   src="plots/Bivariate_Duration_State.html"
   width="800"
-  height="400"
+  height="450"
   frameborder="0"
 ></iframe>
 
