@@ -122,7 +122,7 @@ The main features that could help us identify the true cause of missingness woul
 ></iframe>
 
 <iframe
-  src="plots/climate_customers_affected_missing_assessment.html"
+  src="plots/climate_customers_affected_missing_assessment2.html"
   width="1000"
   height="800"
   frameborder="0"
