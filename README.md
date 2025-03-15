@@ -229,7 +229,9 @@ We fail to reject the null hypothesis. The analysis indicates that the outage du
 
 
 ## Framing a Prediction Problem 
-### Problem Identification
+We aim to train a model that can predict the cause of power outages based on a variety of simple yet effective features. By identifying patterns in historical data, we seek to provide accurate predictions early, enabling faster outage cause determination. This allows authorities to take swift action, allocate resources efficiently, and enhance predictive maintenance by eliminating the root cause before failures occur.
+
+In large-scale outage scenarios—such as a sudden city-wide blackout with a surge in complaints—there’s often no time for extensive forensic analysis before action must be taken. Our model bridges this gap by offering data-driven insights in real time, helping utilities quickly assess the likely cause and respond accordingly. In the long run, such predictive capabilities contribute to a more resilient power grid, reducing downtime and improving overall service reliability.
 
 ## Baseline Model
 
