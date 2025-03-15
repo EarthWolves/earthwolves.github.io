@@ -192,7 +192,7 @@ Hence we **reject the Null Hypothesis**. There are likely systematic factors (e.
 <iframe
   src="plots/HTCausePlot2.html"
   width="1000"
-  height="400"
+  height="450"
   frameborder="0"
 ></iframe>
 
