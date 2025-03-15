@@ -272,12 +272,12 @@ These encodings were implemented using a `ColumnTransformer` within a scikit-lea
 <iframe
   src="plots/Accuracy_Unfair_Region.html"
   width="800"
-  height="350"
+  height="380"
   frameborder="0"
 ></iframe>
 <iframe
   src="plots/Datapoints_for_Accuracy_Region.html"
   width="800"
-  height="350"
+  height="380"
   frameborder="0"
 ></iframe>
