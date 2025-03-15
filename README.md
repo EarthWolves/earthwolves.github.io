@@ -281,3 +281,9 @@ These encodings were implemented using a `ColumnTransformer` within a scikit-lea
   height="380"
   frameborder="0"
 ></iframe>
+<iframe
+  src="plots/accuracy_by_climate_region_map.html"
+  width="800"
+  height="380"
+  frameborder="0"
+></iframe>
