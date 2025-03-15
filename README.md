@@ -88,7 +88,7 @@ The following plot is a box-and-whisker plot for the distribution of power outag
 <iframe
   src="plots/Bivariate_Duration_State.html"
   width="800"
-  height="500"
+  height="400"
   frameborder="0"
 ></iframe>
 
@@ -117,14 +117,14 @@ The main features that could help us identify the true cause of missingness woul
 <iframe
   src="plots/climate_customers_affected_hist.html"
   width="800"
-  height="500"
+  height="400"
   frameborder="0"
 ></iframe>
 
 <iframe
   src="plots/climate_customers_affected_missing_assessment.html"
-  width="1000"
-  height="800"
+  width="1300"
+  height="500"
   frameborder="0"
 ></iframe>
 
@@ -137,8 +137,8 @@ The main features that could help us identify the true cause of missingness woul
 
 <iframe
   src="plots/climate_total_price_missing_assessment.html"
-  width="1000"
-  height="800"
+  width="1300"
+  height="500"
   frameborder="0"
 ></iframe>
 
