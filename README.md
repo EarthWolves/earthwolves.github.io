@@ -168,9 +168,9 @@ Any observed difference (TVD) is due to random variation rather than a true unde
 #### Test Visualization
 
 <iframe
-  src="plots/TVD_Dist_Out_States.html"
-  width="1000"
-  height="450"
+  src="plots/HT_1_State.html"
+  width="800"
+  height="400"
   frameborder="0"
 ></iframe>
 
@@ -190,9 +190,9 @@ Hence we **reject the Null Hypothesis**. There are likely systematic factors (e.
 #### Test Visualization
 
 <iframe
-  src="plots/HTCausePlot2.html"
-  width="1000"
-  height="450"
+  src="plots/HT_2_Cause_Cat.html"
+  width="800"
+  height="400"
   frameborder="0"
 ></iframe>
 
@@ -209,9 +209,9 @@ Hence, we **reject the Null hypothesis**. There are likely systematic factors (e
 **Test Statistic**: TVD
 
 <iframe
-  src="plots/HTMonthPlot3.html"
+  src="plots/HT_3_Cause_Cat.html"
   width="800"
-  height="450"
+  height="400"
   frameborder="0"
 ></iframe>
 
